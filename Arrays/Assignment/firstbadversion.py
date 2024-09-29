@@ -8,12 +8,8 @@ def firstone(arr):
     if arr[mid] == 1:
       index_of_one = mid
       right = mid -1
-      print("right in if ",right)
-    elif arr[mid] ==0 :
-      left = mid +1
-      print("left in elif ",left)
     else:
-      return None
+      left = mid +1
   return index_of_one
 
 
